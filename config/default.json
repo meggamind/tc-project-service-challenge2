@@ -1,0 +1,41 @@
+{
+  "apiVersion": "v4",
+  "authSecret": "secret",
+  "authDomain": "topcoder-dev.com",
+  "logLevel": "info",
+  "version": "v4",
+  "captureLogs": "false",
+  "logentriesToken": "",
+  "rabbitmqURL": "",
+  "pubsubQueueName": "project.service",
+  "pubsubExchangeName": "projects",
+  "fileServiceEndpoint": "",
+  "identityServiceEndpoint": "",
+  "memberServiceEndpoint": "",
+  "directProjectServiceEndpoint": "",
+  "directProjectServiceTimeout": 5000,
+  "attachmentsS3Bucket": "topcoder-prod-media",
+  "projectAttachmentPathPrefix": "projects",
+  "projectAttachmentPathSuffix": "attachments",
+  "elasticsearchConfig": {
+    "host": "",
+    "apiVersion": "2.3",
+    "indexName": "projects",
+    "docType": "projectV4"
+  },
+  "systemUserClientId": "",
+  "systemUserClientSecret": "",
+  "connectProjectUrl":"",
+  "dbConfig": {
+    "masterUrl": "",
+    "maxPoolSize": 50,
+    "minPoolSize": 4,
+    "idleTimeout": 1000
+  },
+  "analyticsKey": "",
+  "validIssuers": "[\"https:\/\/topcoder-newauth.auth0.com\/\",\"https:\/\/api.topcoder-dev.com\"]",
+  "jwksUri": "",
+  "busApiUrl": "http://api.topcoder-dev.com",
+  "busApiToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoicHJvamVjdC1zZXJ2aWNlIiwiaWF0IjoxNTEyNzQ3MDgyLCJleHAiOjE1MjEzODcwODJ9.PHuNcFDaotGAL8RhQXQMdpL8yOKXxjB5DbBIodmt7RE",
+  "HEALTH_CHECK_URL": "_health"
+}
